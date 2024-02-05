@@ -3,7 +3,7 @@ body{
     padding: 0px 250px 0px 250px ;
     overflow-x: hidden;
     text-align: center;
-    
+    background-color: rgba(165, 42, 42, 0.096);
 }
 
 .principal{
@@ -17,17 +17,33 @@ body{
 
 .fontStyle{
     font-family: 'Single Day', cursive;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 .calculos{
     border: 2px solid rgb(126, 11, 34);
     background-color:rgb(255, 212, 221);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    padding: 10px;
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+#resultado{
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(182, 53, 7);
+    padding-top: 20px;
+}
+
+button{
+    color: rgb(220, 192, 247);
+    background-color: rgb(180, 108, 248);
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
 }
