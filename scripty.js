@@ -31,5 +31,12 @@ function divisao(){
     var num2 =  document.getElementById("numDiv02").valueAsNumber;
     var resu = num1 / num2;
     document.getElementById("resultadoDivi").textContent=resu;
-    
+}
+
+function media(){
+    console.log ("AMOGUS");
+    var num1  = document.getElementById("numMed01").valueAsNumber;
+    var num2 =  document.getElementById("numMed02").valueAsNumber;
+    var resu = (num1 + num2) / 2;
+    document.getElementById("resultadoMed").textContent=resu;
 }

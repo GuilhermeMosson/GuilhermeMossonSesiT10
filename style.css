@@ -1,9 +1,10 @@
 body{
     margin: 0px;
-    padding: 0vh 20vh 0vh 20vh ;
+    padding: 0px ;
     overflow-x: hidden;
     text-align: center;
-    background-color: rgba(165, 42, 42, 0.096);
+    border: 2px solid rgb(126, 11, 34);
+    background-color:rgb(249, 227, 232);
 }
 
 #p1{
@@ -16,7 +17,7 @@ body{
 
 #fontStyle{
     font-family:cursive;
-    font-size: calc(10px + 3vw);
+    font-size: calc(12px + 3vw);
     color:rgba(34, 33, 33, 0.637);
 }
 
@@ -28,7 +29,8 @@ body{
 
 .calculos{
     border: 2px solid rgb(126, 11, 34);
-    background-color:rgb(255, 212, 221);
+    border-bottom: none;
+    background-color:rgb(249, 227, 232);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 100%;
     height: calc(20px + 70vh);
@@ -80,13 +82,15 @@ input{
 }
 
 #div_contas{
+    margin: 25px;
     text-align: center;
     box-sizing: border-box;
     border: 2px solid rgba(24, 23, 23, 0.377);
     border-style:dashed;
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: calc(10px + 15vw);
     height: 55vh;
-    font-size: calc(8px + 1vh);
+    font-size: calc(6px + 1vh);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
