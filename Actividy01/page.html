@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <script src="scripty.js"> </script>
+</head>
+<body>
+    <div class="principal" id="p1">
+        <h1 id="fontStyle">Cálculos</h1>
+        <p id="desc">Atividades de cálculos simples para aula de desenvovimento de aplicativos</p>
+    </div> 
+    <div class="calculos">
+        <div id="div_contas">
+            <h2><b>Soma</b></h2>
+            <div id="numeros">
+                <label for="num1">Número 01</label>
+                <input type="number" id="numSoma01">
+            </div>
+            <div id="numeros">
+                <label for="num02">Número 02</label>
+                <input type="number" id="numSoma02">
+                <br>
+            </div>
+            <div>
+                <button onclick="somar()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <p><b>Resultado: </b><span id="resultadoSoma"></span></p>
+            </div>
+        </div>
+
+        <div id="div_contas">
+            <h2><b>Subtração</b></h2>
+            <div id="numeros">
+                <label for="num1">Número 01</label>
+                <input type="number" id="numSub01">
+            </div>
+            <div id="numeros">
+                <label for="num02">Número 02</label>
+                <input type="number" id="numSub02"> 
+                <br>
+            </div>
+            <div>
+                <button onclick="Subtracao()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <p><b>Resultado: </b><span id="resultadoSub"></span></p>
+            </div>
+        </div>
+
+        <div id="div_contas">
+            <h2><b>Multipiclação</b></h2>
+            <div id="numeros">
+                <label for="num1">Número 01</label>
+                <input type="number" id="numMul01">
+            </div>
+            <div id="numeros">
+                <label for="num02">Número 02</label>
+                <input type="number" id="numMul02">
+                <br>
+            </div>
+            <div>
+                <button onclick="mult()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <p><b>Resultado: </b><span id="resultadoMulti"></span></p>
+            </div>
+        </div>
+
+        <div id="div_contas">
+            <h2><b>Divisão</b></h2>
+            <div id="numeros">
+                <label for="num1">Número 01</label>
+                <input type="number" id="numDiv01">
+            </div>
+            <div id="numeros">
+                <label for="num02">Número 02</label>
+                <input type="number" id="numDiv02">
+                <br>
+            </div>
+            <div>
+                <button onclick="divisao()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <p><b>Resultado: </b><span id="resultadoDivi"></span></p>
+            </div>
+        </div>
+
+        <div id="div_contas">
+            <h2><b>Média</b></h2>
+            <div id="numeros">
+                <label for="num1">Número 01</label>
+                <input type="number" id="numMed01">
+            </div>
+            <div id="numeros">
+                <label for="num02">Número 02</label>
+                <input type="number" id="numMed02">
+                <br>
+            </div>
+            <div>
+                <button onclick="media()">Calcular</button>
+            </div>
+            <div id="resultado">
+                <p><b>Resultado: </b><span id="resultadoMed"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
